@@ -1,0 +1,5 @@
+
+SELECT ID, FirstName, LastName, Age
+FROM maintable_GUS5D
+WHERE LastName = 'Smith' or FirstName = 'Robert'
+ORDER BY Age asc;
