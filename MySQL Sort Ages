@@ -1,4 +1,4 @@
-
+#In this MySQL challenge, your query should return the rows from your table where LastName = Smith or FirstName = Robert and the rows should be sorted by Age in ascending order.
 SELECT ID, FirstName, LastName, Age
 FROM maintable_GUS5D
 WHERE LastName = 'Smith' or FirstName = 'Robert'
